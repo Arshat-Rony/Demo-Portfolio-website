@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /* font-family: 'The Nautigal', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    padding-top: 10px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+img {
+    width: 70%;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(231, 62, 90);
+    border-radius: 5px;
+}
+
+section {
+    margin: 0 30px;
+}
+
+span {
+    color: rgba(248, 120, 28, 0.801);
+}
+
+.hero-container,
+.mission-container,
+.develop,
+.community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-section h1 {
+    text-align: center;
+}
+
+.mission-section {
+    margin-top: 80px;
+}
+
+.mission {
+    background-color: rgba(139, 139, 224, 0.26);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.goals {
+    background-color: rgba(255, 192, 203, 0.301);
+}
+
+.vission {
+    background-color: wheat;
+}
+
+.develop {
+    margin-top: 80px;
+    margin-left: 15px;
+
+}
+
+
+
+.community {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.community-text {
+    margin-right: 40px;
+}
+
+.community-image img {
+    margin-left: 20px;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form input {
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+textarea {
+    margin: 10px 0;
+    width: 50%;
+
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
